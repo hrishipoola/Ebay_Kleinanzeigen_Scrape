@@ -1,8 +1,8 @@
 # Ebay Kleinanzeigen Scrape
 
-My daughter Danae's birthday is approaching. She loves Peppa Pig. I decided to scrape Ebay Kleinanzeigen (Germany's eBay classifieds) for inspiration and ideas that I could later organize by seller neighborhood and price. I was surprised by the variety and creativity of Peppa gear! 
+My daughter Danae's birthday is on the horizon. Since she adores Peppa Pig, I scraped [Ebay Kleinanzeigen](https://www.ebay-kleinanzeigen.de) (Germany's eBay classifieds) for inspiration that I could later organize by seller neighborhood and price. 
 
-With a search for 'Peppa' in Berlin, I scraped product title, image, price, neighborhood, zipcode, and link for each item using 2 approaches. 
+I built 2 scrapers, each generating the same result - a dataframe of Peppa-related items in Berlin with product title, image, price, neighborhood, zipcode, and link. I was surprised by the variety of Peppa gear, including items for supporting characters!
 
 First, I used BeautifulSoup and constructed urls based on search criteria for the first 8 pages (what I was allowed to scrape), looped through each page to scrape contents, and created a dataframe. I was able to scrape 125 items. 
 
